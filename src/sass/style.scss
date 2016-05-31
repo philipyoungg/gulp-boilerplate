@@ -36,7 +36,6 @@ body {
 
 h1, h2, h3, h4, h5, h6, p {
   color: rgba(5, 10, 20, 0.8);
-  line-height: $base-font-size * power($modular-scale, $scalar) * 1.4;
 }
 
 html {
