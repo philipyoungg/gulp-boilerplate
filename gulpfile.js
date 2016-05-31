@@ -1,12 +1,9 @@
 var gulp = require('gulp');
 var autoprefixer = require('gulp-autoprefixer');
 var sass = require('gulp-sass');
-// var typeset = require('gulp-typeset');
 var uglifycss = require('gulp-uglifycss');
 
 var browsersync = require('browser-sync').create();
-
-
 
 // PATH destination
 
