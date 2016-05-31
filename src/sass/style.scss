@@ -1,0 +1,35 @@
+$base-font-size: 18px;
+$modular-scale: 1.2;
+
+@mixin gtypo($scalar) {
+  font-size: $base-font-size * ($modular-scale * $scalar);
+  line-height: $base-font-size * ($modular-scale * $scalar) * 1.5;
+}
+
+h1 {
+  @include gtypo(4);
+}
+
+h2 {
+  @include gtypo(3);
+}
+
+h3 {
+  @include gtypo(2);
+}
+
+h4 {
+  @include gtypo(1);
+}
+
+h5 {
+  @include gtypo(1/2);
+}
+
+h6 {
+  @include gtypo(1/3);
+}
+
+p {
+  font-size: $base-font-size;
+}
