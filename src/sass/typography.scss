@@ -1,0 +1,110 @@
+html {
+  font-family: -apple-system, 'Merriweather';
+  font-size: $base-font-size * 1.5;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* max-width: 23rem; */
+  margin: 0 auto;
+  padding: 0 0.5rem;
+
+  background-color: rgba(0, 0, 0, 0.1);
+
+  /* background-image: linear-gradient(to bottom, rgba(0, 170, 255, .3) 1px, transparent 1px); */
+  background-position: left top;
+  background-repeat: repeat;
+  background-size: 100% 0.5rem;
+
+  /* width: 21cm;
+  height: 29.7cm;
+  box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1); */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: rgba(5, 10, 20, 0.85);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  @include gtypo(4);
+}
+
+h2 {
+  @include gtypo(3);
+}
+
+h3 {
+  @include gtypo(2);
+}
+
+h4 {
+  @include gtypo(1);
+}
+
+h5 {
+  @include gtypo(-1);
+}
+
+h6 {
+  @include gtypo(-2);
+}
+
+p {
+  font-size: $base-font-size;
+}
+
+.lh1 {
+  line-height: 1rem;
+}
+
+.lh2 {
+  line-height: 2rem;
+}
+
+.lh3 {
+  line-height: 3rem;
+}
+
+.measure {
+  max-width: 20em;
+}
+
+.measure-narrow {
+  max-width: 13em;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.mb0-5 {
+  margin-bottom: 0.5rem;
+}
+
+.mb1-5 {
+  margin-bottom: 1.5rem;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+[contenteditable]:focus { outline: 0px solid transparent; }
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  background:white;
+  padding: 3rem 5rem;
+  margin: 2rem auto;
+  box-shadow:
+  0 1px 1px rgba(0, 0, 0, 0.1),
+  0 8px 8px -3px rgba(0, 0, 0, 0.15),
+  0 0 30px rgba(0, 0, 0, 0.05)
+}

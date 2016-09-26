@@ -4,20 +4,100 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="/src/style.css" media="screen" title="no title" charset="utf-8">
+    <!-- <link rel="stylesheet" href="/src/style.css" media="screen" title="no title" charset="utf-8"> -->
+    <style>
+    h1, h2, h3,h4 ,h5, h6, p {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+    .indent {
+      margin-bottom: 1rem !important;
+    }
+    .ml-auto {
+      margin-left: auto;
+    }
+    .justify {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    .column-3-ns {
+      column-count: 3;
+    }
+
+    .column-2 {
+      column-count: 2;
+    }
+
+    @media screen and (min-width: 30em) and (max-width: 60em) {
+      .column-2-m {
+        column-count: 2
+      }
+    }
+
+    @media screen and (max-width: 30em) {
+      .column {
+        column-count: 1
+      }
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.3.0/tachyons.min.css">
   </head>
-  <body>
+  <body class="sans-serif">
     <!-- <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6> -->
-    <div class="page" contenteditable="">
-      <h1>Employed VS Self Employed: My Decision After Graduation</h1>
-      <p>2015 is one of my productive and life changing year ever. I learned a ton, achieved a ton, and sadly—lost tons of time here. This is also the same year I graduated from college and entered adult life. At last, I can focus on what matters now.</p>
-      <p>This monumental event also gives me a mid life crisis. I will graduate soon. So, what will be the decision after graduation? Employed or self employed? My ego told me that working for others is a no-go. I should start my own business. Employment—metaphorically is a bird in golden cage. Living paycheck by paycheck is something that I never dreamed of.</p>
-      <p>Okay, so entrepreneurship is the only choice. The next question is, what business I want to build? I’ve been struggling on this question for months, and no answer came to my mind. Thankfully, a friend of mine said: “Don’t you want to build your own agency”?</p>
+    <div class="w-100 black-80">
+      <nav class="ph5-ns ph3 mb5">
+        <div class="h3 dt dt--fixed bb b--light-gray">
+          <ul class="list pa0 tc tl-ns dtc v-mid order-last">
+            <li class="dib mr4-ns mr3 f5-ns f6 b"><a class="link dim" href="">Shitte</a></li>
+            <li class="dib mr4-ns mr3 f5-ns f6"><a class="link dim" href="">Radiant</a></li>
+            <li class="dib mr4-ns mr3 f5-ns f6"><a class="link dim" href="">Coolness</a></li>
+            <li class="dib f5-ns f6"><a class="link dim" href="">Longing</a></li>
+          </ul>
+          <div class="dtc-ns dn v-mid w4-ns w2-m" style="margin-left: auto">
+            <p class="b f4 mb0 tr dn db-l">Philip Young</p>
+            <p class="b f4 mb0 tr dn-l">PY</p>
+          </div>
+        </div>
+      </nav>
+      <div class="tc">
+        <span class="dib pa2 ba br2 bg-red white f5 b mb2">New!</span>
+      </div>
+      <h2 class="f-subheadline-ns f2 ph2 ph4-ns center tc mw7 mb3 lh-solid mb0 underline-hover">Being productive: the secret</h2>
+      <p class="f4-ns f6 tc mb4 black-30">January 20th, 2016</p>
+      <p class="ph3 f5 measure-wide center lh-copy">2015 is one of my productive and life changing year ever. I learned a ton, achieved a ton, and sadly—lost tons of time here. This is also the same year I graduated from college and entered adult life. At last, I can focus on what matters now.</p>
+      <p class="ph3 f5 measure-wide center lh-copy">2015 is one of my productive and life changing year ever. I learned a ton, achieved a ton, and sadly—lost tons of time here. This is also the same year I graduated from college and entered adult life. At last, I can focus on what matters now.</p>
+      <p class="ph3 f5 measure-wide center lh-copy">2015 is one of my productive and life changing year ever. I learned a ton, achieved a ton, and sadly—lost tons of time here. This is also the same year I graduated from college and entered adult life. At last, I can focus on what matters now.</p>
+
+      <!-- <div class="ph3 cf mw8 center mb3 mt5">
+        <div class="column column-3-ns">
+          <h2 class="f4 lh-title mb0">Motherfucking Alive</h2>
+          <h6 class="f6 black-30">2 Jan 2016</h6>
+          <p class="f6 lh-copy">2015 is one of my productive and life changing year ever. I learned a ton, achieved a ton, and sadly—lost tons of time here. This is also the same year I graduated from college and entered adult life. At last, I can focus on what matters now.</p>
+          <h2 class="f4 lh-title mb0">Motherfucking Alive</h2>
+          <h6 class="f6 black-30">2 Jan 2016</h6>
+          <p class="f6 lh-copy">This monumental event also gives me a mid life crisis. I will graduate soon. So, what will be the decision after graduation? Employed or self employed? My ego told me that working for others is a no-go. I should start my own business. Employment.</p>
+          <h2 class="f4 lh-title mb0">Motherfucking Alive</h2>
+          <h6 class="f6 black-30">2 Jan 2016</h6>
+          <p class="f6 lh-copy">Okay, so entrepreneurship is the only choice. The next question is, what business I want to build? I’ve been struggling on this question for months, and no answer came to my mind. Thankfully, a friend of mine said: “Don’t you want to build your own agency”?</p>
+        </div>
+      </div> -->
+      <div class="ph3-ns pv4 mw7 center">
+        <img class="w-100" src="http://static1.squarespace.com/static/50271a61c4aab6c54f9af5ee/t/568e07280e4c1157fa0d14c2/1452148523735/?format=1500w" alt="">
+      </div>
+
+      <p class="ph3 mw8 center lh-copy measure">2015 is one of my productive and life changing year ever. I learned a ton, achieved a ton, and sadly—lost tons of time here. This is also the same year I graduated from college and entered adult life. At last, I can focus on what matters now.</p>
+
+      <div class="pv4"></div>
     </div>
   </body>
 </html>
